@@ -5,7 +5,7 @@ const Fetch = () => {
     const photosPrefix = 'https://dimedia-nekretnine.nekretninebrcko.com/thumb.php?file='
 
     useEffect(() => {
-        fetch('http://localhost:3000/api/hello')
+        fetch(window.location.href + 'api/hello')
             .then(response => response.json())
             .then(data => setData(data.realEstates.realEstate));
     }, [])
