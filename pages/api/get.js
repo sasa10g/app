@@ -11,6 +11,7 @@ export default (req, res) => {
         headers: {
           "Content-Type": "application/xml; charset=utf-8",
           "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Headers": "*",
         },
         mode: "no-cors",
       }
