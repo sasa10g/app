@@ -26,7 +26,7 @@ const Fetch = () => {
         var data = response.data;
         var result1 = convert.xml2json(data, { compact: true, spaces: 4 });
         //var result2 = convert.xml2json(data, { compact: false, spaces: 4 });
-        setData(JSON.parse(result1));
+        setData(JSON.parse(result1?.realEstates?.realEstate));
         //res.status(200).json(JSON.parse(result1));
       })
       .catch(function (error) {
