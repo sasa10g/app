@@ -26,7 +26,7 @@ const Fetch = () => {
         var data = response.data;
         var result1 = convert.xml2json(data, { compact: true, spaces: 4 });
         //var result2 = convert.xml2json(data, { compact: false, spaces: 4 });
-        setData(JSON.parse(result1?.realEstates?.realEstate));
+        setData(JSON.parse(result1));
         //res.status(200).json(JSON.parse(result1));
       })
       .catch(function (error) {
@@ -39,7 +39,7 @@ const Fetch = () => {
   var x = data?.re_photo[0]?.re_photos_name?._cdata;
   return (
     <>
-      <p>{data?.re_realEstates_code?._cdata}</p>
+      <p>{data?.realEstates?.realEstate?.re_realEstates_code?._cdata}</p>
       <img style={{ width: "300px" }} src={photosPrefix + x} />
     </>
   );
