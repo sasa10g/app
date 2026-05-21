@@ -103,6 +103,14 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
+"@studio-freight/lenis@0.2.28":
+  version "0.2.28"
+  resolved "https://registry.yarnpkg.com/@studio-freight/lenis/-/lenis-0.2.28.tgz#b6a69dcd6abfbc79517a76f3e86841533811f1b4"
+  integrity sha512-obxWf3ZNtnLg9Rd2WPgkzq36N2NEmiwvdlNXlHIrrjCGltZp4+NtIQmXsF9/XtsJEhQ4Gd4u90zALRDgsr5W/g==
+  dependencies:
+    tiny-emitter "^2.1.0"
+    virtual-scroll "^2.2.1"
+
 "@tootallnate/once@1":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
@@ -893,6 +901,11 @@ graceful-fs@^4.1.2:
   version "4.2.6"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
+
+gsap@^3.12.5:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.15.0.tgz#7851baaffc77642f2db3b1749d3634f9b5a19d14"
+  integrity sha512-dMW4CWBTUK1AEEDeZc1g4xpPGIrSf9fJF960qbTZmN/QwZIWY5wgliS6JWl9/25fpTGJrMRtSjGtOmPnfjZB+A==
 
 has-bigints@^1.0.1:
   version "1.0.1"
@@ -1977,12 +1990,22 @@ symbol-tree@^3.2.4:
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
 
+three@^0.160.0:
+  version "0.160.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.160.1.tgz#61fe2907312e8604b1f64187f58e047503847413"
+  integrity sha512-Bgl2wPJypDOZ1stAxwfWAcJ0WQf7QzlptsxkjYiURPz+n5k4RBDLsq+6f9Y75TYxn6aHLcWz+JNmwTOXWrQTBQ==
+
 timers-browserify@2.0.12, timers-browserify@^2.0.4:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/timers-browserify/-/timers-browserify-2.0.12.tgz#44a45c11fbf407f34f97bccd1577c652361b00ee"
   integrity sha512-9phl76Cqm6FhSX9Xe1ZUAMLtm1BLkKj2Qd5ApyWkXzsMRaA7dgr81kf4wJmQf/hAvg8EEyJxDo3du/0KlhPiKQ==
   dependencies:
     setimmediate "^1.0.4"
+
+tiny-emitter@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
+  integrity sha512-NB6Dk1A9xgQPMoGqC5CVXn123gWyte215ONT5Pp5a0yt4nlEoO1ZWeCwpncaekPHXO60i47ihFnZPiRPjRMq4Q==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -2121,6 +2144,13 @@ util@^0.11.0:
   integrity sha512-HShAsny+zS2TZfaXxD9tYj4HQGlBezXZMZuM/S5PKLLoZkShZiGk9o5CzukI1LVHZvjdvZ2Sj1aW/Ndn2NB/HQ==
   dependencies:
     inherits "2.0.3"
+
+virtual-scroll@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/virtual-scroll/-/virtual-scroll-2.2.1.tgz#447133c2f5d99dd78f6a1f78ca5c77b94759bfc3"
+  integrity sha512-RvjcLxluh7B/6GPzLgQ9d0NYG4yqEguTc3MU7AvxyPVltuo2Cq5RokTL9RKUaZCMJ64in2hus0d03gTtoHp55g==
+  dependencies:
+    tiny-emitter "^2.1.0"
 
 vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"
